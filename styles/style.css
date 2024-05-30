@@ -3,6 +3,13 @@
   text-align: center;
 }
 
+section {
+  width: 1773px;
+  height: 821px;
+  background-image: url(/images/header.png);
+  background-size: cover;
+}
+
 .searchIn {
   margin: auto;
   text-align: center;
@@ -10,6 +17,25 @@
 
 nav ul li {
   display: inline-block;
-  text-align: center;
   margin: auto;
+  color: #ffffff;
+}
+
+.navbar {
+  color: #ffffff;
+  background-color: #5474fd;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.navbar a {
+  text-align: center;
+}
+
+main {
+  width: 1770px;
+  height: 685px;
+  background-image: url(/images/castle.png);
 }/*# sourceMappingURL=style.css.map */
