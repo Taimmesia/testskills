@@ -47,6 +47,8 @@ nav ul li {
   align-items: end;
   justify-content: space-around;
   padding-right: 20px;
+  position: absolute;
+  bottom: 0;
 }
 .navbar a:hover {
   color: black;
