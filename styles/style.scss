@@ -59,6 +59,13 @@ h3 {
   align-items: center;
   padding-right: 30px;
 }
-footer {
-  background-color: #000000;
+// footer {
+// background-color: #000000;
+
+.icons {
+  display: flex;
+  justify-content: center;
+  & a {
+    padding: 20px;
+  }
 }
