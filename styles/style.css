@@ -129,6 +129,10 @@ h3 {
   padding-right: 30px;
 }
 
+footer {
+  background-color: #5e5a5a;
+}
+
 .icons {
   display: flex;
   justify-content: center;
