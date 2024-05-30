@@ -1,1 +1,15 @@
-/*# sourceMappingURL=style.css.map */
+.main {
+  margin: auto;
+  text-align: center;
+}
+
+.searchIn {
+  margin: auto;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+}/*# sourceMappingURL=style.css.map */
