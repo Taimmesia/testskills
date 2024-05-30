@@ -1,6 +1,6 @@
 @import "./variables";
 @import "./header";
-
+@import "/styles/mixins";
 button {
   margin-top: 40px;
   width: 228px;
@@ -54,8 +54,7 @@ h3 {
   background-image: url(/images/man-hills.png);
   width: 1770px;
   height: 731px;
-  display: flex;
-  justify-content: center;
+  @include flexCenter();
   align-items: center;
   padding-right: 30px;
 }
@@ -64,8 +63,7 @@ footer {
 }
 
 .icons {
-  display: flex;
-  justify-content: center;
+  @include flexCenter();
   & a {
     padding: 20px;
   }
