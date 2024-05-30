@@ -2,3 +2,8 @@
   display: flex;
   justify-content: center;
 }
+
+@mixin grphgt() {
+  width: 1773px;
+  height: 700px;
+}
