@@ -1,71 +1,38 @@
-.main {
-  margin: auto;
-  text-align: center;
-}
-section {
-  width: 1773px;
-  height: 821px;
-  background-image: url(/images/header.png);
-  background-size: cover;
-}
-.searchIn {
-  text-align: center;
-}
-.search {
-  padding-right: 20px;
-  width: 503px;
-  height: 63px;
+@import "./variables";
+@import "./header";
 
-  background-color: #ffffff;
-}
-.search-btn {
-  width: 153px;
-  height: 63px;
-  background-color: #5474fd;
-  color: #ffffff;
-  text-align: center;
-}
 button {
+  margin-top: 40px;
   width: 228px;
   height: 63px;
   background-color: #5474fd;
-  color: #ffffff;
+  color: $color;
   text-align: center;
 }
 
-nav ul li {
-  display: inline-block;
-  color: #ffffff;
-}
-
-.navbar {
-  width: 1773px;
-  height: 83px;
-  color: #ffffff;
-  background-color: #5474fd;
-  display: flex;
-  align-items: end;
-  justify-content: space-around;
-  padding-right: 20px;
-  position: absolute;
-  bottom: 0;
-}
-.navbar a:hover {
-  color: black;
-}
-.navbar a {
-  text-align: center;
-}
 main {
   width: 1770px;
   height: 685px;
   background-image: url(/images/castle.png);
 }
+.main-info {
+  width: 800px;
+  height: 248px;
+  color: $color;
+  position: absolute;
+  left: 20%;
+}
 .secondLi {
-  display: inline-block;
   background-color: #333333;
   width: 1773px;
   height: 340px;
+}
+.spain {
+  width: 543px;
+  height: 374px;
+  background-color: #232323;
+  opacity: 80%;
+  padding: 30px 30px;
 }
 .group1 {
   background-image: url(/images/house.png);

@@ -1,5 +1,14 @@
 .main {
-  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-words {
+  width: 372px;
+  height: 76px;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -23,14 +32,6 @@ section {
 
 .search-btn {
   width: 153px;
-  height: 63px;
-  background-color: #5474fd;
-  color: #ffffff;
-  text-align: center;
-}
-
-button {
-  width: 228px;
   height: 63px;
   background-color: #5474fd;
   color: #ffffff;
@@ -63,17 +64,41 @@ nav ul li {
   text-align: center;
 }
 
+button {
+  margin-top: 40px;
+  width: 228px;
+  height: 63px;
+  background-color: #5474fd;
+  color: #ffffff;
+  text-align: center;
+}
+
 main {
   width: 1770px;
   height: 685px;
   background-image: url(/images/castle.png);
 }
 
+.main-info {
+  width: 800px;
+  height: 248px;
+  color: #ffffff;
+  position: absolute;
+  left: 20%;
+}
+
 .secondLi {
-  display: inline-block;
   background-color: #333333;
   width: 1773px;
   height: 340px;
+}
+
+.spain {
+  width: 543px;
+  height: 374px;
+  background-color: #232323;
+  opacity: 80%;
+  padding: 30px 30px;
 }
 
 .group1 {
