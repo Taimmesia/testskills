@@ -38,4 +38,29 @@ main {
   width: 1770px;
   height: 685px;
   background-image: url(/images/castle.png);
+}
+
+.secondLi {
+  display: inline-block;
+  background-color: #333333;
+  width: 1773px;
+  height: 340px;
+}
+
+.group1 {
+  background-image: url(/images/house.png);
+  width: 1773px;
+  height: 700px;
+}
+
+.group2 {
+  background-image: url(/images/stone-sea.png);
+  width: 1773px;
+  height: 700px;
+}
+
+.tourists {
+  background-image: url(/images/man-hills.png);
+  width: 1770px;
+  height: 731px;
 }/*# sourceMappingURL=style.css.map */
