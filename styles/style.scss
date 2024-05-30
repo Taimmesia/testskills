@@ -15,12 +15,15 @@ main {
   height: 685px;
   background-image: url(/images/castle.png);
 }
+
 .main-info {
   width: 800px;
   height: 248px;
   color: $color;
   position: absolute;
   left: 20%;
+  font-size: $font-sm;
+  font-family: "Josefin Sans";
 }
 .secondLi {
   background-color: #333333;
