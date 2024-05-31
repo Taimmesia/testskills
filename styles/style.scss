@@ -7,7 +7,7 @@ button {
   height: 63px;
   background-color: $bgcolor;
   color: $color;
-  line-height: 26px;
+  line-height: $lineH;
   letter-spacing: 1.4px;
   font-family: "Aleo", sans-serif;
   text-align: center;
@@ -29,7 +29,7 @@ main {
 .main-h2 {
   color: $color;
   font-family: "Aleo";
-  line-height: 26px;
+  line-height: $lineH;
   font-size: 36px;
   padding-bottom: 30px;
 }
@@ -44,7 +44,7 @@ main {
   padding-right: 25%;
   font-size: $font-sm;
   font-family: "Josefin Sans", sans-serif;
-  line-height: 26px;
+  line-height: $lineH;
   letter-spacing: 1.6px;
 }
 .main-imgs {
@@ -69,7 +69,7 @@ main {
   background-color: #333333;
   font-size: 36px;
   font-family: "Aleo", sans-serif;
-  line-height: 26px;
+  line-height: $lineH;
   text-align: center;
   display: flex;
   justify-content: space-around;
@@ -120,7 +120,7 @@ h3 {
   font-size: 36px;
   color: $color;
   font-family: "Aleo";
-  line-height: 26px;
+  line-height: $lineH;
   padding-top: 30px;
 }
 .tourists {

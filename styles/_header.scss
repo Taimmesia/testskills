@@ -10,7 +10,7 @@
     color: $color;
     font-family: "Josefin Sans", sans-serif;
     font-size: 14px;
-    line-height: 26px;
+    line-height: $lineH;
     letter-spacing: 2.8px;
   }
   & span {
@@ -28,7 +28,7 @@
   & .phrase {
     font-family: "Josefin Sans", sans-serif;
     font-size: 22px;
-    line-height: 26px;
+    line-height: $lineH;
     letter-spacing: 6.82px;
   }
 }
