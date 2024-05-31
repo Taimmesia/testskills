@@ -75,7 +75,7 @@ nav ul li {
   position: absolute;
   bottom: -25%;
   font-size: 14px;
-  font-family: "Aleo";
+  font-family: "Aleo", sans-serif;
 }
 
 .navbar a:hover {
@@ -115,7 +115,7 @@ main {
 
 .main-h2 {
   color: #ffffff;
-  font-family: "Aleo";
+  font-family: "Aleo", sans-serif;
   line-height: 26px;
   font-size: 36px;
   padding-bottom: 30px;
@@ -220,7 +220,7 @@ h3 {
   right: 35%;
   font-size: 36px;
   color: #ffffff;
-  font-family: "Aleo";
+  font-family: "Aleo", sans-serif;
   line-height: 26px;
   padding-top: 30px;
 }
