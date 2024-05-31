@@ -78,6 +78,9 @@ button {
   height: 63px;
   background-color: #5474fd;
   color: #ffffff;
+  line-height: 26px;
+  letter-spacing: 1.4px;
+  font-family: "Aleo", sans-serif;
   text-align: center;
 }
 
@@ -108,14 +111,15 @@ main {
   max-width: 800px;
   width: 50%;
   min-height: 248px;
-  color: #ffffff;
+  color: #e8e8e8;
   position: absolute;
   left: 20%;
   padding-top: 15%;
   padding-right: 25%;
   font-size: 16px;
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1.6px;
 }
 
 .main-imgs {
