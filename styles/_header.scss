@@ -6,10 +6,12 @@
   transform: translate(-50%, -50%);
 }
 .top-words {
-  width: 372px;
-  height: 76px;
-  color: $color;
+  // width: 372px;
+  // max-width: 100%;
+  // height: 76px;
+  // margin-left: 100px;
   text-align: center;
+  color: $color;
 }
 section {
   width: 1773px;
