@@ -75,11 +75,23 @@ h3 {
 }
 .tourists {
   background-image: url(/images/man-hills.png);
-  width: 1770px;
+  max-width: 1770px;
   height: 731px;
   @include flexCenter();
   align-items: center;
   padding-right: 30px;
+}
+.sam-sumon {
+  background-color: #333333;
+  width: 668px;
+  height: 287px;
+  padding: 40px 30px;
+  & p {
+    padding-top: 30px;
+    & span {
+      color: $bgcolor;
+    }
+  }
 }
 footer {
   background-color: #5e5a5a;
