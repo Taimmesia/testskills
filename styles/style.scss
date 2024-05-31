@@ -10,7 +10,7 @@ button {
   line-height: $lineH;
   letter-spacing: 1.4px;
   font-family: $fontAle, sans-serif;
-  text-align: center;
+  text-align: $txtCenter;
 }
 
 main {
@@ -70,7 +70,7 @@ main {
   font-size: 36px;
   font-family: $fontAle, sans-serif;
   line-height: $lineH;
-  text-align: center;
+  text-align: $txtCenter;
   display: flex;
   justify-content: space-around;
   align-items: center;

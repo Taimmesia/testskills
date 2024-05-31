@@ -6,7 +6,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   & p {
-    text-align: center;
+    text-align: $txtCenter;
     padding-top: 15%;
     color: $color;
     font-family: $fontJos, sans-serif;
@@ -24,7 +24,7 @@
   // max-width: 100%;
   // height: 76px;
   // margin-left: 100px;
-  text-align: center;
+  text-align: $txtCenter;
   color: $color;
   & .phrase {
     font-family: $fontJos, sans-serif;
@@ -42,7 +42,7 @@ section {
   background-repeat: no-repeat;
 }
 .searchIn {
-  text-align: center;
+  text-align: $txtCenter;
 }
 .search {
   padding-right: 20px;
@@ -56,7 +56,7 @@ section {
   height: 63px;
   background-color: $bgcolor;
   color: $color;
-  text-align: center;
+  text-align: $txtCenter;
 }
 nav ul li {
   display: inline-block;
