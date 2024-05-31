@@ -8,7 +8,7 @@
     text-align: center;
     padding-top: 15%;
     color: $color;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: $fontJos, sans-serif;
     font-size: 14px;
     line-height: $lineH;
     letter-spacing: 2.8px;
@@ -26,7 +26,7 @@
   text-align: center;
   color: $color;
   & .phrase {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: $fontJos, sans-serif;
     font-size: 22px;
     line-height: $lineH;
     letter-spacing: 6.82px;
@@ -75,7 +75,7 @@ nav ul li {
   position: absolute;
   bottom: -25%;
   font-size: 14px;
-  font-family: "Aleo";
+  font-family: $fontAle, sans-serif;
 }
 .navbar a:hover {
   color: black;
