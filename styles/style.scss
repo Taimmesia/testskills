@@ -95,8 +95,7 @@ main {
 }
 .spain1 {
   width: 50%;
-  display: flex;
-  justify-content: center;
+  @include flexCenter();
   position: relative;
   top: 20%;
   left: 5%;
