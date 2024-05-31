@@ -47,9 +47,8 @@ nav ul li {
   color: #ffffff;
   background-color: #5474fd;
   display: flex;
-  align-items: end;
+  align-items: center;
   justify-content: space-around;
-  padding-right: 20px;
   position: absolute;
   bottom: 0;
   font-size: 14px;
@@ -61,7 +60,7 @@ nav ul li {
 }
 
 .navbar a {
-  text-align: center;
+  margin-right: 30px;
 }
 
 button {
