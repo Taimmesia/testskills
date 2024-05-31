@@ -9,7 +9,7 @@ button {
   color: $color;
   line-height: $lineH;
   letter-spacing: 1.4px;
-  font-family: "Aleo", sans-serif;
+  font-family: $fontAle, sans-serif;
   text-align: center;
 }
 
@@ -28,7 +28,7 @@ main {
 }
 .main-h2 {
   color: $color;
-  font-family: "Aleo";
+  font-family: $fontAle, sans-serif;
   line-height: $lineH;
   font-size: 36px;
   padding-bottom: 30px;
@@ -43,7 +43,7 @@ main {
   padding-top: 15%;
   padding-right: 25%;
   font-size: $font-sm;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: $fontJos, sans-serif;
   line-height: $lineH;
   letter-spacing: 1.6px;
 }
@@ -68,7 +68,7 @@ main {
   color: #e8e8e8;
   background-color: #333333;
   font-size: 36px;
-  font-family: "Aleo", sans-serif;
+  font-family: $fontAle, sans-serif;
   line-height: $lineH;
   text-align: center;
   display: flex;
@@ -119,7 +119,7 @@ h3 {
   right: 35%;
   font-size: 36px;
   color: $color;
-  font-family: "Aleo";
+  font-family: $fontAle, sans-serif;
   line-height: $lineH;
   padding-top: 30px;
 }
