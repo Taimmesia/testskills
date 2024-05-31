@@ -4,6 +4,20 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.main p {
+  text-align: center;
+  padding-top: 15%;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+}
+.main span {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
 
 .top-words {
   text-align: center;
