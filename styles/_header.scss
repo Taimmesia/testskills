@@ -14,8 +14,7 @@
     letter-spacing: 2.8px;
   }
   & span {
-    display: flex;
-    justify-content: center;
+    @include flexCenter();
     color: $color;
   }
 }
