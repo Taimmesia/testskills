@@ -158,3 +158,28 @@ footer {
     padding: 20px;
   }
 }
+
+// @media screen and (max-width: 1306px) {
+
+@media screen and (max-width: 320px) {
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .search-btn {
+    width: 50px;
+    height: 13px;
+  }
+  .searchIn {
+    font-size: 16px;
+  }
+  .search {
+    padding-right: 0;
+    width: 100px;
+    height: 23px;
+  }
+  .secondLi {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
