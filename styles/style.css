@@ -9,6 +9,12 @@
   text-align: center;
   color: #ffffff;
 }
+.top-words .phrase {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 6.82px;
+}
 
 section {
   max-width: 1773px;
@@ -53,7 +59,7 @@ nav ul li {
   align-items: center;
   justify-content: space-around;
   position: absolute;
-  bottom: 0;
+  bottom: -25%;
   font-size: 14px;
   font-family: "Aleo";
 }
