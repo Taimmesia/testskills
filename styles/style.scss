@@ -38,6 +38,9 @@ main {
   height: 340px;
   font-size: 25px;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .spain {
   width: 543px;
