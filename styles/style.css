@@ -89,15 +89,34 @@ main {
   height: 685px;
 }
 
-.main-text {
-  width: 800px;
+main .main-text {
+  max-width: 800px;
   width: 50%;
-  height: 248px;
+  min-height: 248px;
   color: #ffffff;
   position: absolute;
   left: 20%;
+  padding-top: 15%;
+  padding-right: 25%;
   font-size: 16px;
   font-family: "Josefin Sans";
+}
+
+.main-imgs {
+  width: 50%;
+  padding-top: 5%;
+}
+
+.img1 {
+  position: absolute;
+  right: 25%;
+  padding-bottom: 50px;
+}
+
+.img2 {
+  position: absolute;
+  right: 15%;
+  padding-top: 17%;
 }
 
 .secondLi {
